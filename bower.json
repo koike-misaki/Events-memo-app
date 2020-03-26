@@ -1,0 +1,24 @@
+{
+  "name": "koike",
+  "description": "concert",
+  "main": "concert",
+  "authors": [
+    "koike"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "1234azaz"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "gmaps": "^0.4.25"
+  }
+}

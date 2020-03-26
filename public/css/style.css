@@ -1,0 +1,907 @@
+@media screen and (min-width: 767px) { 
+    body {
+        background: #FFF;
+        
+        font-size: 14px;
+        color: #333;
+        margin:0;
+    }
+
+    h1,h2,h3,h4,h5 {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    header {
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto 40px auto;
+    }
+
+    .header-title-area {
+        display: inline-block;
+    }
+
+    .header-title-area li {
+        list-style: none;
+        float: right;
+        margin-top: 30px;
+        padding: 5px 30px 5px 30px;  
+        background-color: lightskyblue;
+        border-radius: 10px;
+    }
+
+    .logo {
+        font-size: 29px;
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+
+    .header-navigation {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: double 5px  lightseagreen;
+    border-top:  double 5px lightseagreen;
+    }
+
+    .header-navigation:after {
+        clear: both;
+        display: block;
+        content: " ";
+    }
+        
+    .header-navigation li {
+        float: left;
+        padding: 0 30px;
+        text-align: center;
+        list-style-type: none;
+    }
+        
+    .header-navigation li a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .card-contents {
+        padding: 40px;
+        display: block;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .map-area {
+        width: 100%;
+        height: 300px;
+    }
+
+    .form-control {
+        width: 700px;
+        display: block;
+        padding: 10px;
+    }
+
+    .form-control-2 {
+        padding: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        background-color : #00CCFF;
+        color : #FFF;
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 0 10px 110px;
+        text-align: center;
+    }
+
+    .btn-2 {
+        display: inline-block;
+        background-color : #00CCFF;
+        color : #FFF;
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 0 10px 20px;
+        text-align: center;
+    }
+
+    .text-area {
+        width: 150px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+        display: block;
+    }
+
+    .text-title {
+        width : 30%;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 20px 150px;   
+        background-color: lightseagreen;
+        color : #FFF ;
+        text-align: center;
+    }
+
+    .text {
+        display: block;
+        margin: 0 0 40px 150px;   
+    }
+
+    .main {
+        width : 80%;
+        margin: 0 auto 40px auto;
+        /*border : solid 1px #808080;*/
+    }
+
+    .copyright {
+        color: #777;
+        text-align: center;
+    }
+
+    .all_title {
+        width: 100%;
+    }
+
+    .all_title-1 {
+        width: 8%;
+        height: 40px;
+        font-size: 14px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_title-2 {
+        width: 15%;
+        height: 40px;
+        font-size: 14px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_title-3 {
+        width: 25%;
+        height: 40px;
+        font-size: 14px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_title-4 {
+        width: 5%;
+        height: 40px;
+        font-size: 14px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_table-1 {
+        width: 8%;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .all_table-2 {
+        width: 15%;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .all_table-3 {
+        width: 25%;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .all_table-4 {
+        width: 5%;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .cond_form {
+        display: inline-block;
+        width: 550px;
+        height: 30px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .cond_text_title {
+        font-size: 20px;
+        width: 100%;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 100px 0px 0;
+    }
+
+    .action {
+        margin-bottom: 5px;
+    }
+
+    .cond_text_area-2 {
+        width: 80%;
+        font-weight: bold;
+        display: block;
+        background-color: red;
+        color: #FFF;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .map-area {
+        width : 100%;
+        height: 400px;
+        background-color: hotpink;
+    }
+        
+    .paging-area {
+        width: 100%;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .paging-side{
+        width: 30%;
+        display: inline-block;
+    }
+
+    .paging{
+        width: 33%;
+        display: inline-block;
+    }
+    
+    .pagination {
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-item {
+            display: inline-block;
+            padding: 10px;
+            background-color:lightseagreen;
+            color: #FFF;
+            width: 40%;
+            text-align: center;
+            font-size: 12px;
+            border-radius: 10px;
+    }
+
+    .text-open {
+        text-align: center;
+        font-family: 'Hiragino Kaku Gothic StdN';
+        margin: 20px 50px 0px 50px;
+        border-bottom: double 5px palegreen;
+        padding-bottom: 10px;
+    }
+
+    .text-open2 {
+        text-align: center;
+        margin-top: 10px;
+        color: #FFF;
+    }
+
+    .text-open-area {
+        margin: 30px 50px 40px 50px;
+        background-color: lightslategray;
+        padding: 10px;
+        border-radius:30px;
+    }
+
+    .map{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    body {
+        background-color: #FFF;
+        color: #333;
+        margin: 0;
+    }
+
+    h1,h2,h3,h4,h5 {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    header {
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto 40px auto;
+    }
+
+    .header-title-area {
+        width : 100%;
+        display: inline-block;
+    }
+
+    .header-title-area li {
+        list-style: none;
+        float: right;
+        margin-top: 30px;
+        padding: 5px 30px 5px 30px;  
+        background-color: lightskyblue;
+        border-radius: 10px;
+    }
+
+    .logo {
+        font-size: 29px;
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+
+    .header-navigation {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: double 5px  lightseagreen;
+    border-top:  double 5px lightseagreen;
+    }
+
+    .header-navigation:after {
+        clear: both;
+        display: block;
+        content: " ";
+    }
+        
+    .header-navigation li {
+        float: left;
+        padding: 0 30px;
+        text-align: center;
+        list-style-type: none;
+    }
+        
+    .header-navigation li a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .card-contents {
+        padding: 40px;
+        display: block;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .map-area {
+        width: 100%;
+        height: 300px;
+    }
+
+    .form-control {
+        width: 350px;
+        display: block;
+        padding: 10px;
+    }
+
+    .form-control-2 {
+        padding: 10px;
+        display: inline-block;
+    }
+
+
+    .btn {
+        display: inline-block;
+        background-color : #00CCFF;
+        color : #FFF;
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 0 10px 0px;
+        text-align: center;
+    }
+
+    .btn-2 {
+        display: inline-block;
+        background-color : #00CCFF;
+        color : #FFF;
+        width: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 0 10px 20px;
+        text-align: center;
+    }
+
+    .text-area {
+        width: 150px;
+        margin-bottom: 40px;
+        display: block;
+    }
+
+    .text-title {
+        width : 50%;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 10px 0;   
+        background-color: lightseagreen;
+        color : #FFF ;
+        text-align: center;
+    }
+
+    .text {
+        display: block;
+        margin: 0 0 20px 0;   
+    }
+
+    .main {
+        width : 80%;
+        margin: 0 auto 40px auto;
+        /*border : solid 1px #808080;*/
+    }
+
+    .copyright {
+        color: #777;
+        text-align: center;
+    }
+
+    .all_title {
+        width: 100%;
+    }
+
+    .all_title-1 {
+        width: 12%;
+        height: 40px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_title-2 {
+        width: 18%;
+        height: 40px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_title-3 {
+        display:none;
+    }
+
+    .all_title-4 {
+        width: 10%;
+        height: 40px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_table-1 {
+        width: 12%;
+        font-size: 12px;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .all_table-2 {
+        width: 18%;
+        font-size: 12px;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .all_table-3 {
+        display:none;
+    }
+
+    .all_table-4 {
+        width: 10%;
+        font-size: 12px;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .cond_form {
+        display: inline-block;
+        width: 280px;
+        height: 30px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .cond_text_title {
+        font-size: 20px;
+        width: 100%;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 100px 0px 0;
+    }
+
+    .action {
+        margin-bottom: 5px;
+    }
+
+    .cond_text_area-2 {
+        width: 80%;
+        font-weight: bold;
+        display: block;
+        background-color: red;
+        color: #FFF;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+        
+    .paging-area {
+        width: 100%;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .paging-side{
+        width: 30%;
+        display: inline-block;
+    }
+
+    .paging{
+        width: 30%;
+        display: inline-block;
+    }
+    
+    .pagination {
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-item {
+            display: inline-block;
+            padding: 10px;
+            background-color:lightseagreen;
+            color: #FFF;
+            width: 60px;
+            text-align: center;
+            font-size: 8px;
+            border-radius: 10px;
+    }
+
+    .text-open {
+        text-align: center;
+        font-family: 'Hiragino Kaku Gothic StdN';
+        border-bottom: double 5px palegreen;
+        padding-bottom: 10px;
+    }
+
+    .text-open2 {
+        text-align: center;
+        margin-top: 10px;
+        color: #FFF;
+    }
+
+    .text-open-area {
+        background-color: lightslategray;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .map-area {
+        width : 100%;
+        height: 400px;
+        background-color: hotpink;
+    }
+
+    .map{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 479px) { 
+    body {
+        background-color: #FFF;
+        color: #333;
+        margin: 0;
+    }
+
+    h1,h2,h3,h4,h5 {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    header {
+        margin-top: 20px;
+    }
+
+    .container {
+        /* width: 80%; */
+        margin: 0 auto 40px auto;
+    }
+
+    .header-title-area {
+        width : 100%;
+        display: inline-block;
+    }
+
+    .header-title-area li {
+        list-style: none;
+        float: right;
+        margin-top: 30px;
+        padding: 5px 30px 5px 30px;  
+        background-color: lightskyblue;
+        border-radius: 10px;
+    }
+
+    .logo {
+        font-size: 29px;
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+
+    .header-navigation {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: double 5px  lightseagreen;
+    border-top:  double 5px lightseagreen;
+    }
+
+    .header-navigation:after {
+        clear: both;
+        display: block;
+        content: " ";
+    }
+        
+    .header-navigation li {
+        float: left;
+        padding: 0 30px;
+        text-align: center;
+        list-style-type: none;
+    }
+        
+    .header-navigation li a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .card-contents {
+        padding: 40px;
+        display: block;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .map-area {
+        width: 100%;
+        height: 300px;
+    }
+
+    .form-control {
+        width: 280px;
+        display: block;
+        padding: 10px;
+    }
+
+    .form-control-2 {
+        padding: 10px;
+        display: inline-block;
+    }
+
+
+    .btn {
+        display: inline-block;
+        background-color : #00CCFF;
+        color : #FFF;
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 0 10px 0px;
+        text-align: center;
+    }
+
+    .btn-2 {
+        display: inline-block;
+        background-color : #00CCFF;
+        color : #FFF;
+        width: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px 0 10px 20px;
+        text-align: center;
+    }
+
+    .text-area {
+        width: 150px;
+        margin-bottom: 40px;
+        display: block;
+    }
+
+    .text-title {
+        width : 50%;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 10px 0;   
+        background-color: lightseagreen;
+        color : #FFF ;
+        text-align: center;
+    }
+
+    .text {
+        display: block;
+        margin: 0 0 20px 0;   
+    }
+
+    .main {
+        width : 80%;
+        margin: 0 auto 40px auto;
+        /*border : solid 1px #808080;*/
+    }
+
+    .copyright {
+        color: #777;
+        text-align: center;
+    }
+
+    .all_title {
+        width: 100%;
+    }
+
+    .all_title-1 {
+        width: 12%;
+        height: 40px;
+        font-size: 12px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_title-2 {
+        width: 18%;
+        height: 40px;
+        font-size: 12px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_title-3 {
+        display:none;
+    }
+
+    .all_title-4 {
+        width: 10%;
+        height: 40px;
+        font-size: 12px;
+        background-color: #DDFFFF ;
+        border-bottom : double 3px #999999;
+        border-top : double 3px #999999;
+    }
+
+    .all_table-1 {
+        width: 12%;
+        font-size: 10px;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .all_table-2 {
+        width: 18%;
+        font-size: 10px;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .all_table-3 {
+        display:none;
+    }
+
+    .all_table-4 {
+        width: 10%;
+        font-size: 10px;
+        border-bottom : solid 1px #999999;
+        text-align:center;
+        padding : 10px 0 10px 0;
+    }
+
+    .cond_form {
+        display: inline-block;
+        width: 280px;
+        height: 30px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .cond_text_title {
+        font-size: 20px;
+        width: 100%;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 100px 0px 0;
+    }
+
+    .action {
+        margin-bottom: 5px;
+    }
+
+    .cond_text_area-2 {
+        width: 80%;
+        font-weight: bold;
+        display: block;
+        background-color: red;
+        color: #FFF;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+        
+    .paging-area {
+        width: 100%;
+        display: inline-block;
+        margin-top: 10px
+    }
+
+    .paging-side{
+        width: 15%;
+        display: inline-block;
+    }
+
+    .paging{
+        width: 60%;
+        display: inline-block;
+    }
+    
+    .pagination {
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-item {
+            display: inline-block;
+            padding: 10px;
+            background-color:lightseagreen;
+            color: #FFF;
+            width: 60px;
+            text-align: center;
+            font-size: 8px;
+            border-radius: 10px;
+    }
+
+    .text-open {
+        text-align: center;
+        font-family: 'Hiragino Kaku Gothic StdN';
+        border-bottom: double 5px palegreen;
+        padding-bottom: 10px;
+    }
+
+    .text-open2 {
+        text-align: center;
+        margin-top: 10px;
+        color: #FFF;
+    }
+
+    .text-open-area {
+        background-color: lightslategray;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .map-area {
+        width : 100%;
+        height: 400px;
+        background-color: hotpink;
+    }
+
+    .map{
+        width: 100%;
+        height: 300px;
+    }
+
+    
+}
